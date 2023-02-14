@@ -1,0 +1,293 @@
+:root{
+    --roboto: 'Roboto', sans-serif;
+    --righteous: 'Righteous', 'cursive';
+    --bg_color: #0c0f38;
+    --item_bg: #8208eb;
+    --poppins: 'Poppins', sans-serif;
+    --lato: 'Lato', sans-serif;
+}
+header{
+    background-color: var(--bg_color);
+    padding-bottom: 60px;
+}
+.navbar-brand{
+    font-family: var(--righteous);
+    font-size: 30px;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+}
+header ul{
+    align-items: center;
+}
+.nav-link{
+    font-family: var(--roboto);
+    font-size: 17px;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    margin-left: 15px;
+    transition: 0.3s all ease-in-out;
+}
+.nav-link:hover{
+    color: #d1c5c5;
+}
+.btn_custom{
+    font-family: var(--roboto);
+    font-size: 17px;
+    color: #ffffff;
+    padding: 7px 13px;
+    letter-spacing: 0.5px;
+    transition: 0.3s all ease-in-out;
+}
+.btn_custom:hover{
+    color: #d1c5c5;
+}
+.banner{
+    background-image: url(../images/bg.png);
+    background-position: -40vh 0vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.banner h1{
+    font-family: var(--righteous);
+    font-size: 55px;
+    color: #ffffff;
+    letter-spacing: 0.4px;
+}
+.banner h3{
+    font-family: var(--roboto);
+    font-size: 45px;
+    color: #fdd430;
+    letter-spacing: 0.5px;
+}
+.banner p{
+    font-family: var(--roboto);
+    font-size: 16px;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    line-height: 24px;
+}
+.banner a{
+    color: #0c0f38;
+    text-transform: uppercase;
+    background-color: #ffffff;
+    border: 1px solid #0c0f38;
+    letter-spacing: 0.5px;
+    transition: 0.3s all ease-in-out;
+}
+.banner a:hover{
+    color: #0c0f38;
+    background-color: #d1c5c5;
+}
+.what_new{
+    background-image: url(../images/box.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 50px;
+    transform: translateY(-25px);
+}
+.what_new .content{
+    transform: translateY(25px);
+}
+.what_new .content h2{
+    font-family: var(--roboto);
+    font-size: 45px;
+    color: #0c0f38;
+    letter-spacing: 0.5px;
+}
+.what_new .content p{
+    font-family: var(--roboto);
+    font-size: 17px;
+    color: #0c0f38;
+    letter-spacing: 0.5px;
+    line-height: 24px;
+}
+.what_new .content a{
+    color: #ffffff;
+    text-transform: uppercase;
+    background-color: #0c0f38;
+    border: 1px solid #ffffff;
+    letter-spacing: 0.5px;
+    transition: 0.3s all ease-in-out;
+}
+.what_new .content a:hover{
+    color: #d1c5c5;
+    background-color: #0c0f38;
+}
+.service{
+    background-color: #0c0f38;
+}
+.service h1{
+    font-family: var(--poppins);
+    font-weight: bold;
+    font-size: 50px;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+}
+.service p{
+    font-family: var(--poppins);
+    font-size: 17px;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    line-height: 24px;
+}
+.service .item{
+    border: 1px solid #c3c4ce;
+    border-radius: 20px;
+    transition: 0.3s all ease-in-out;
+}
+.service .item:hover{
+    background-color: var(--item_bg);
+    border: 1px solid var(--item_bg);
+}
+.service .item .img_bx{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 50%;
+    border: 1px solid #e100f0;
+}
+.service .item h3{
+    font-family: var(--poppins);
+    font-size: 20px;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+}
+.service .item p{
+    font-family: var(--poppins);
+    font-size: 16px;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    line-height: 24px;
+}
+.service a{
+    width: auto;
+    color: #0c0f38;
+    text-transform: uppercase;
+    background-color: #ffffff;
+    border: 1px solid #0c0f38;
+    letter-spacing: 0.5px;
+    transition: 0.3s all ease-in-out;
+}
+.choose h1{
+    font-family: var(--poppins);
+    font-weight: bold;
+    font-size: 45px;
+    color: #0c0f38;
+    letter-spacing: 0.5px;
+}
+.choose p{
+    font-family: var(--poppins);
+    font-size: 16px;
+    color: #595958;
+    letter-spacing: 0.5px;
+    line-height: 20px;
+}
+.choose .item{
+    box-shadow: 0px 0px 3px #ddd;
+    border-radius: 20px;
+    transition: 0.3s all ease-in-out;
+}
+.choose .item:hover{
+    background-color: #8208eb;
+}
+.choose .item img:nth-of-type(2){
+    display: none;
+}
+.choose .item:hover img:nth-of-type(1){
+    display: none;
+}
+.choose .item:hover img:nth-of-type(2){
+    display: block;
+    margin: auto;
+}
+.choose .item h3{
+    font-family: var(--poppins);
+    font-size: 20px;
+    color: #0c0f38;
+    letter-spacing: 0.5px;
+}
+.choose .item:hover h3,
+.choose .item:hover p{
+    color: #ffffff;
+}
+.choose .item p{
+    font-family: var(--poppins);
+    font-size: 16px;
+    color: #090808;
+    letter-spacing: 0.5px;
+    line-height: 20px;
+}
+.choose a{
+    color: #ffffff;
+    text-transform: uppercase;
+    background-color: #0c0f38;
+    border: 1px solid #ffffff;
+    letter-spacing: 0.5px;
+    transition: 0.3s all ease-in-out;
+}
+.contact{
+    background-color: var(--bg_color);
+    margin-top: 180px;
+    position: relative;
+    height: 90vh;
+}
+.contact form{
+    background-color: var(--bg_color);
+    text-align: center;
+    border-radius: 15px;
+    position: absolute;
+    top: -25%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 500px;
+}
+.contact form input,
+.contact form textarea{
+    margin-bottom: 10px;
+}
+.contact form input[type="submit"]{
+    background-color: var(--item_bg);
+    padding: 10px 70px;
+    border: none;
+    border-radius: 15px;
+    margin-top: 10px;
+    transition: 0.3s all ease-in-out;
+}
+.contact form input[type="submit"]:hover{
+    color: #ffffff;
+
+}
+.contact  .content h1{
+    font-family: var(--poppins);
+    font-weight: bold;
+    font-size: 45px;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+}
+.contact .content h3{
+    font-family: var(--poppins);
+    font-size: 40px;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+}
+.contact .content p{
+    font-family: var(--poppins);
+    font-size: 17px;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    line-height: 20px;
+}
+footer{
+    background-color: #ffffff;
+}
+footer p{
+    font-family: var(--lato);
+    font-size: 17px;
+    color:#000000;
+
+}
